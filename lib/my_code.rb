@@ -60,7 +60,7 @@ def reduce_to_all_true(source_array)
       i=source_array.length
       flag=false
     end
-    count+=1
+    i+=1
   end
   
   if flag=false
