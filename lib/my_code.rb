@@ -63,7 +63,7 @@ def reduce_to_all_true(source_array)
     i+=1
   end
   
-  if flag=false
+  if flag==false
     return false
   else
     return true
