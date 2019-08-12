@@ -42,9 +42,9 @@ end
 
 #REDUCELIKE
 
-def reduce_to_total(source_array)
+def reduce_to_total(source_array,starting_point=0)
   i=0
-  total=0
+  total=starting_point
   while i<source_array.length do
     total+=source_array[i]
     i+=1
