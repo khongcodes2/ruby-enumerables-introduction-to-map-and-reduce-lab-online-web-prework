@@ -56,7 +56,7 @@ def reduce_to_all_true(source_array)
   i=0
   while i<source_array.length do
     #if false abort, if true keep testing
-    if source_array[i]=false
+    if source_array[i]==false
       i=source_array.length
       flag=false
     end
