@@ -64,7 +64,7 @@ def reduce_to_all_true(source_array)
   end
   
   if flag=false
-    return flag
+    return false
   else
     return true
   end
